@@ -19,18 +19,16 @@ $ pip install -r requirements.txt
 ```bash
 >>> import viacep
 >>> d = viacep.ViaCEP('78048000')
->>> data = d.retorna_json_completo()
+>>> data = d.getDadosCEP()
 >>> data
-{u'complemento': u'de 5799/5800 a 7887/7888', u'ibge': u'5103403', u'bairro': u'
-Consil', u'logradouro': u'Avenida Miguel Sutil', u'unidade': u'', u'gia': u'', u
-'cep': u'78048-000', u'uf': u'MT', u'localidade': u'Cuiab\xe1'}
->>> cidade = data['localidade']
->>> cidade
-u'Cuiab\xe1'
->>> print(u'%s' % cidade)
-Cuiabá
->>> uf = data['uf']
->>> uf
-u'MT'
+{'cep': '78048-000', 'logradouro': 'Avenida Miguel Sutil', 'complemento': 'de 5686 a 6588 - lado par', 'bairro': 'Alvorada', 'localidade': 'Cuiabá', 'uf': 'MT', 'unidade': '', 'ibge': '5103403', 'gia': ''}
+>>> data['localidade']
+'Cuiabá'
+>>> data['uf']
+'MT'
 >>>
 ```
+
+Licença
+-------
+[Licença MIT](LICENSE)
