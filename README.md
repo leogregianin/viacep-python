@@ -31,6 +31,11 @@ $ pip install -r requirements.txt
 >>>
 ```
 
+## Exemplo com Python Flask
+
+* https://github.com/leogregianin/viacep-flask
+* https://viacep-flask.herokuapp.com
+
 Licença
 -------
 [Licença MIT](LICENSE)
