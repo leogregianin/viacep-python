@@ -1,6 +1,6 @@
 # ViaCEP em Python
 
-[![PyPI version](https://badge.fury.io/py/viacep-python.svg?1.3.1)](https://pypi.python.org/pypi/viacep/1.3.1)
+[![PyPI version](https://badge.fury.io/py/viacep.svg)](https://badge.fury.io/py/viacep)
 [![Build Status](https://travis-ci.org/leogregianin/viacep-python.svg)](https://travis-ci.org/leogregianin/viacep-python)
 [![codecov](https://codecov.io/gh/leogregianin/viacep-python/branch/master/graph/badge.svg)](https://codecov.io/gh/leogregianin/viacep-python)
 
