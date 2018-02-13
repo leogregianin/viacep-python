@@ -35,11 +35,24 @@ dict_values(['78048-000', 'Avenida Miguel Sutil', 'de 5686 a 6588 - lado par', '
 >>>
 ```
 
+## Testes unitários
+---------
+
+```bash
+$ python .\test_viacep.py
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.984s
+
+OK
+```
+
 ## Exemplo com Python Flask
 
 * https://github.com/leogregianin/viacep-flask
 * https://viacep-flask.herokuapp.com
 
-Licença
+
+## Licença
 -------
 [Licença MIT](LICENSE)
