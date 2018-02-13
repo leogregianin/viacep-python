@@ -3,5 +3,5 @@
 
 from viacep import ViaCEP
 
-data = ViaCEP('78048000')
+data = ViaCEP('08048000')
 print(u'%s' % data.getDadosCEP())
